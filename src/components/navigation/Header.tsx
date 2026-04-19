@@ -19,7 +19,10 @@ export default function Header() {
         </div>
 
         {/* Center: Navigation Text (Hidden on mobile) */}
-        <div className="hidden md:flex gap-10 lg:gap-32 pointer-events-auto text-left font-sans text-[11px] md:text-xs font-semibold leading-[1.3] text-white mix-blend-difference">
+        <div 
+          className="hidden md:flex gap-10 lg:gap-32 pointer-events-auto text-left font-sans text-[11px] md:text-xs font-semibold leading-[1.3] text-white mix-blend-difference"
+          style={{ willChange: 'mix-blend-mode', transform: 'translateZ(0)' }}
+        >
           <div className="w-[220px]">
             <p> &nbsp; &nbsp; &nbsp;Cutting-edge web development.</p>
             <p>Driven by performance. Built with</p>
@@ -29,7 +32,7 @@ export default function Header() {
 
         {/* Right: Menu Toggle */}
         <div className="flex items-center pr-6 md:pr-6 gap-6 text-sm font-sans uppercase font-medium pointer-events-auto">
-          <div className="relative" style={{ willChange: 'transform' }}>
+          <div className="relative" style={{ willChange: 'transform, mix-blend-mode', transform: 'translateZ(0)' }}>
             <style>{`
               #menu-checkbox {
                 display: none;

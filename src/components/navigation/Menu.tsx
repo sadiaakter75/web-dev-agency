@@ -96,12 +96,12 @@ export default function Menu({ isOpen, onClose }: MenuProps) {
           </div>
         </nav>
 
-        <div className="flex flex-col gap-10 menu-fade-in">
+        <div className="flex flex-col gap-10 mt-10 menu-fade-in">
           
-          <div className="flex flex-wrap gap-x-8 gap-y-4 text-sm font-sans uppercase font-bold tracking-widest">
-            <a href="#" className="hover:text-zinc-500 transition-colors">Instagram</a>
-            <a href="#" className="hover:text-zinc-500 transition-colors">Twitter</a>
-            <a href="#" className="hover:text-zinc-500 transition-colors">LinkedIn</a>
+          <div className="flex flex-wrap gap-x-8 gap-y-6 text-sm font-sans uppercase font-bold tracking-widest">
+            <a href="https://github.com/sadiaakter75" className="hover:text-zinc-500 transition-colors">Github</a>
+            <a href="https://x.com/AkterSadia85872" className="hover:text-zinc-500 transition-colors">Twitter</a>
+            <a href="https://www.linkedin.com/in/sadia-akter-8a484b3b7/" className="hover:text-zinc-500 transition-colors">LinkedIn</a>
           </div>
         </div>
       </div>
