@@ -29,7 +29,6 @@ export default function Header() {
 
         {/* Right: Menu Toggle */}
         <div className="flex items-center pr-6 md:pr-6 gap-6 text-sm font-sans uppercase font-medium pointer-events-auto">
-          <span className={`transition-colors duration-500 mix-blend-difference ${isMenuOpen ? 'text-black' : 'text-white'}`}>IT</span>
           <div className="relative" style={{ willChange: 'transform' }}>
             <style>{`
               #menu-checkbox {
