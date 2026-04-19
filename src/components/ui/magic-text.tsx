@@ -43,12 +43,12 @@ export const MagicText: React.FC<MagicTextProps> = ({ text }) => {
   return (
     <div 
       ref={containerRef} 
-      className="relative flex flex-wrap justify-center text-center max-w-6xl mx-auto leading-[1.1] p-4 text-black"
+      className="relative flex flex-wrap justify-center text-center max-w-4xl mx-auto leading-[1.15] p-4 text-black"
     >
       {words.map((word, i) => (
         <span 
           key={i} 
-          className="word-span relative mt-[8px] mr-2 text-2xl md:text-5xl font-bold tracking-tight"
+          className="word-span relative mt-[6px] mr-2 text-2xl md:text-4xl font-bold tracking-tight"
           style={{ willChange: "opacity" }}
         >
           <span className="absolute opacity-10">{word}</span>

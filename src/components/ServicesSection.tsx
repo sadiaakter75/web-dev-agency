@@ -123,7 +123,7 @@ export default function ServicesSection() {
         
         {/* Left Column (Scrollable Text) */}
         <div className="w-full md:w-1/2 flex flex-col step-list-wrapper">
-          <div className="mb-20 md:mb-32 flex justify-between items-center w-full">
+          <div className="mb-10 md:mb-12 flex justify-between items-center w-full">
             <h2 className="text-4xl md:text-6xl font-sans tracking-tight font-medium">How it works</h2>
             <span className="text-[#FF4500] font-sans font-medium text-sm tracking-widest uppercase">// Process</span>
           </div>
@@ -131,10 +131,10 @@ export default function ServicesSection() {
           <div className="flex flex-col gap-8 md:gap-12 pb-[50vh] pt-[30vh]">
             {STEPS.map((step, i) => (
               <div key={i} className="step-item relative opacity-30 flex gap-6 md:gap-8 transition-opacity">
-                <FlowerIcon className={`step-icon absolute -left-10 md:-left-15 top-0 w-8 h-8 md:w-10 md:h-10 ${i % 2 === 0 ? 'text-[#FF4500]' : 'text-black'} opacity-0 scale-50`} />
+                <FlowerIcon className={`step-icon absolute -left-10 md:-left-12 top-0 w-8 h-8 md:w-10 md:h-10 ${i % 2 === 0 ? 'text-[#FF4500]' : 'text-black'} opacity-0 scale-50`} />
                 <span className="text-zinc-500 font-mono text-lg md:text-xl font-medium mt-1">{step.num}</span>
                 <div className="flex flex-col gap-4">
-                  <h3 className="text-3xl md:text-5xl font-sans font-medium text-zinc-900">{step.title}</h3>
+                  <h3 className="text-3xl md:text-4xl font-sans font-medium text-zinc-900">{step.title}</h3>
                   <p className="text-zinc-500 font-sans text-base md:text-lg leading-relaxed max-w-sm">
                     {step.desc}
                   </p>

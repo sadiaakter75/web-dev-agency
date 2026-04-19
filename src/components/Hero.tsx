@@ -100,16 +100,16 @@ export default function Hero() {
       <div className="relative z-10 w-full h-24 md:h-32 pointer-events-none shrink-0" />
 
       {/* Middle Grid Lines / Categories */}
-      <div className="relative z-10 w-full p-6 md:p-10 flex justify-between text-[10px] md:text-xs uppercase tracking-widest text-zinc-400 font-sans">
+      <div className="relative z-10 w-full p-6 md:p-10 flex justify-between text-[10px] md:text-xs uppercase tracking-widest text-zinc-400 font-sans mix-blend-difference">
         <span>Web Applications</span>
         <span>Digital Experiences</span>
         <span>Frontend Architecture</span>
       </div>
 
       {/* Big Text */}
-      <div className="relative z-10 w-full flex flex-col items-center justify-center pb-20 md:pb-32 px-4 pointer-events-none">
+      <div className="relative z-10 w-full flex flex-col items-center justify-center pb-20 md:pb-32 px-4 pointer-events-none mix-blend-difference">
         <h1 
-          className="font-oswald text-[18vw] md:text-[12vw] leading-[0.85] tracking-tight text-white text-center flex flex-col items-center w-full uppercase"
+          className="font-oswald text-[14vw] md:text-[10.5vw] leading-[0.85] tracking-tight text-white text-center flex flex-col items-center w-full uppercase"
           style={{ willChange: 'transform' }}
         >
           <span>Website</span>

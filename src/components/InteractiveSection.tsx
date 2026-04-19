@@ -42,14 +42,11 @@ export default function InteractiveSection() {
         <div className="w-full md:w-2/5 relative">
           <div 
             ref={textRef}
-            className="sticky top-1/3 flex flex-col gap-8 font-sans text-xl md:text-2xl leading-relaxed max-w-md mx-auto"
+            className="sticky top-1/3 flex flex-col gap-3 font-sans text-xl md:text-xl leading-relaxed max-w-md mx-auto"
           >
-            <h1 className="text-8xl font-oswald font-bold">PROJECTS</h1>
+            <h1 className="text-[5vw] md:text-[5vw] font-oswald font-bold">PROJECTS</h1>
             <p className="opacity-90">
-              We live in an age where everything is everywhere, all the time. The real challenge is no longer visibility, but meaning. We exist to build authentic connections between brands and people where every experience, physical or digital, becomes part of the same story.
-            </p>
-            <p className="opacity-70 text-lg">
-              We believe commerce is culture: a coherent ecosystem where technology, design, and strategy merge to create profound value.
+              A selection of our recent work, showcasing practical solutions, clean design, and reliable performance.
             </p>
           </div>
         </div>

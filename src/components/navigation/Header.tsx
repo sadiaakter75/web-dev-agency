@@ -12,7 +12,7 @@ export default function Header() {
       <Menu isOpen={isMenuOpen} onClose={() => setIsMenuOpen(false)} />
       
       {/* Fixed Header */}
-      <header className="fixed top-0 left-0 w-full p-6 md:p-10 flex justify-between items-start z-999 pointer-events-none">
+      <header className="fixed top-0 left-0 w-full p-6 md:p-5 flex justify-between items-start z-999 pointer-events-none">
         {/* Left: Logo */}
         <div className="flex pointer-events-auto -mt-1 md:-mt-8">
           <Logo className="w-32 md:w-44 h-auto" />
@@ -25,15 +25,11 @@ export default function Header() {
             <p>Driven by performance. Built with</p>
             <p>modern technologies.</p>
           </div>
-          <div className="w-[180px]">
-            <p>hello@agency.com</p>
-            <p>Modena, EST 2008©</p>
-          </div>
         </div>
 
-        {/* Right: IT & Menu Toggle */}
-        <div className="flex items-center gap-6 text-sm font-sans uppercase font-medium pointer-events-auto">
-          <span className={`transition-colors duration-500 ${isMenuOpen ? 'text-black' : 'text-white mix-blend-difference'}`}>IT</span>
+        {/* Right: Menu Toggle */}
+        <div className="flex items-center pr-6 md:pr-6 gap-6 text-sm font-sans uppercase font-medium pointer-events-auto">
+          <span className={`transition-colors duration-500 mix-blend-difference ${isMenuOpen ? 'text-black' : 'text-white'}`}>IT</span>
           <div className="relative" style={{ willChange: 'transform' }}>
             <style>{`
               #menu-checkbox {
